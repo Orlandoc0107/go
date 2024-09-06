@@ -35,6 +35,23 @@ func main() {
 	)
 
 	fmt.Println(firstName2, lastName2, age2)
+	
+	
+	// tipo dinamico podemos no colocar el tipo de datos 
+	var ( 
+		firstName3 = "Orlando2"
+		lastName3  = "Cardenas2"
+		age3 = 100
+	)
+
+	fmt.Println(firstName3, lastName3, age3)
+
+	// una fomra de simplicar el uso de variables
+
+	var firstName4, lastName4, age4 = "Orlando4", "Cardenas4", 100
+	// se puede simplificar el uso de variables
+	// 
+	fmt.Println(firstName4, lastName4, age4)
 }
 
 // si queremos copilar el archivo con el comando go build hola.go
